@@ -1,0 +1,16 @@
+{
+  "name": "electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack":"electron-packager . myFirstElectron --win --out ./dist --arch=x64 --app-version=0.0.1 --electron-version=4.1.4"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^22.0.0",
+    "electron-packager": "^17.1.1"
+  }
+}
